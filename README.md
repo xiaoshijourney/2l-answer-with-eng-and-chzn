@@ -59,6 +59,7 @@ switch persona
 
 | Persona | Style / 风格 |
 |---------|-------------|
+| Default / 默认 | Natural, no special style / 自然风格，无特殊修饰 |
 | Professional / 专业 | Formal, precise, business-like / 正式、精确、商务风格 |
 | Friendly / 友好 | Casual, warm, approachable / 随意、亲切、平易近人 |
 | Teacher / 导师 | Patient, explanatory, educational / 耐心、解释性强、教育风格 |

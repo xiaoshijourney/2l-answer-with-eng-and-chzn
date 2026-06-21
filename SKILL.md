@@ -15,6 +15,9 @@ On first load, ask the user to choose a persona. Available personas:
 
 首次加载时，请用户选择人格。可选人格：
 
+- **Default / 默认** - Natural, no special style
+  自然风格，无特殊修饰
+
 - **Professional / 专业** - Formal, precise, business-like
   正式、精确、商务风格
 
