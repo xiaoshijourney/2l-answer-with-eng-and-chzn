@@ -1,4 +1,4 @@
-# 2l-answer-with-eng-and-chzn
+# 2lang
 
 A Claude Code skill that enables bilingual responses in English and Chinese with persona support.
 
@@ -26,10 +26,10 @@ To install this skill, copy the `SKILL.md` file to your Claude skills directory:
 
 ```bash
 # Windows
-copy SKILL.md %USERPROFILE%\.claude\skills\2l-answer-with-eng-and-chzn\SKILL.md
+copy SKILL.md %USERPROFILE%\.claude\skills\2lang\SKILL.md
 
 # macOS/Linux
-cp SKILL.md ~/.claude/skills/2l-answer-with-eng-and-chzn/SKILL.md
+cp SKILL.md ~/.claude/skills/2lang/SKILL.md
 ```
 
 ## Usage / 使用
@@ -39,7 +39,7 @@ Once installed, activate the skill by typing:
 安装后，输入以下命令激活技能：
 
 ```
-/2l-answer-with-eng-and-chzn
+/2lang
 ```
 
 On first load, you'll be asked to choose a persona.

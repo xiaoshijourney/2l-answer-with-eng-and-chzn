@@ -1,5 +1,5 @@
 ---
-name: 2l-answer-with-eng-and-chzn
+name: 2lang
 description: Respond in English first, then Chinese, with a blank line between them. Supports persona selection.
 ---
 
