@@ -11,17 +11,19 @@ When this skill is active, respond in the user's chosen languages.
 
 ## Language Selection / 语言选择
 
-On first load, ask the user to choose 1-2 languages for responses. Display each language option in its **native form** (the language's own name for itself):
+On first load, ask the user to choose 1-2 languages for responses. Display a numbered list and let the user **type the numbers** (e.g. "2" or "2 3"). Do NOT use structured selection UI — use plain text input only.
 
-首次加载时，请用户选择 1-2 种回复语言。每个语言选项用该语言的**母语形式**显示：
+首次加载时，请用户选择 1-2 种回复语言。显示编号列表，让用户**输入数字**选择（如"2"或"2 3"）。不要使用结构化选择界面，只用纯文本输入。
 
-- **English**
-- **中文**
-- **日本語**
-- **한국어**
-- **Français**
-- **Deutsch**
-- **Español**
+每个语言选项用该语言的**母语形式**显示：
+
+1. **English**
+2. **中文**
+3. **日本語**
+4. **한국어**
+5. **Français**
+6. **Deutsch**
+7. **Español**
 
 To switch languages later, say: "switch languages" or "切换语言"
 
@@ -29,7 +31,11 @@ To switch languages later, say: "switch languages" or "切换语言"
 
 ## Persona Selection / 人格选择
 
-After language selection, ask the user to choose a persona. **Translate all persona names and descriptions into the user's selected language(s).** For example, if the user chose 中文 and English, show personas in both 中文 and English; if only 日本語, show only in 日本語. Also offer the option to describe a favorite character/person as a custom persona.
+After language selection, ask the user to choose a persona. Same input style: numbered list, user **types the number** or types a character name. Do NOT use structured selection UI.
+
+语言选择后，请用户选择人格。同样的输入方式：编号列表，用户**输入数字**或直接输入人物名称。不要使用结构化选择界面。
+
+**Translate all persona names and descriptions into the user's selected language(s).** For example, if the user chose 中文 and English, show personas in both 中文 and English; if only 日本語, show only in 日本語. Also offer the option to describe a favorite character/person as a custom persona.
 
 Available personas (base list — translate to selected language(s)):
 
