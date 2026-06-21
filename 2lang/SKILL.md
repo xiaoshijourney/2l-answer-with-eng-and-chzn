@@ -11,17 +11,17 @@ When this skill is active, respond in the user's chosen languages.
 
 ## Language Selection / 语言选择
 
-On first load, ask the user to choose 1-2 languages for responses. Available languages:
+On first load, ask the user to choose 1-2 languages for responses. Display each language option in its **native form** (the language's own name for itself):
 
-首次加载时，请用户选择 1-2 种回复语言。可选语言：
+首次加载时，请用户选择 1-2 种回复语言。每个语言选项用该语言的**母语形式**显示：
 
-- **English / 英语**
-- **Chinese / 中文**
-- **Japanese / 日本語**
-- **Korean / 한국어**
-- **French / Français**
-- **Deutsch / 德语**
-- **Español / 西班牙语**
+- **English**
+- **中文**
+- **日本語**
+- **한국어**
+- **Français**
+- **Deutsch**
+- **Español**
 
 To switch languages later, say: "switch languages" or "切换语言"
 
@@ -29,27 +29,16 @@ To switch languages later, say: "switch languages" or "切换语言"
 
 ## Persona Selection / 人格选择
 
-After language selection, ask the user to choose a persona. Available personas:
+After language selection, ask the user to choose a persona. **Translate all persona names and descriptions into the user's selected language(s).** For example, if the user chose 中文 and English, show personas in both 中文 and English; if only 日本語, show only in 日本語.
 
-语言选择后，请用户选择人格。可选人格：
+Available personas (base list — translate to selected language(s)):
 
-- **Default / 默认** - Natural, no special style
-  自然风格，无特殊修饰
-
-- **Professional / 专业** - Formal, precise, business-like
-  正式、精确、商务风格
-
-- **Friendly / 友好** - Casual, warm, approachable
-  随意、亲切、平易近人
-
-- **Teacher / 导师** - Patient, explanatory, educational
-  耐心、解释性强、教育风格
-
-- **Tech Expert / 技术专家** - Concise, technical, code-focused
-  简洁、技术性强、代码导向
-
-- **Creative / 创意** - Imaginative, expressive, playful
-  富有想象力、表达丰富、活泼
+- **Default** — Natural, no special style
+- **Professional** — Formal, precise, business-like
+- **Friendly** — Casual, warm, approachable
+- **Teacher** — Patient, explanatory, educational
+- **Tech Expert** — Concise, technical, code-focused
+- **Creative** — Imaginative, expressive, playful
 
 To switch persona later, say: "switch persona" or "切换人格"
 
