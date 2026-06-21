@@ -1,14 +1,14 @@
 # 2lang
 
-A Claude Code skill that enables bilingual responses in English and Chinese with persona support.
+A Claude Code skill that enables multilingual responses with persona support.
 
-一个让 Claude 用英文和中文双语回复的技能，支持人格选择。
+一个让 Claude 用多语回复的技能，支持人格选择。
 
 ## Features / 功能
 
-- Bilingual output in English and Chinese
+- Choose 1-2 languages for responses
 
-  英中双语输出
+  选择 1-2 种回复语言
 
 - Dynamic language order based on user's input
 
@@ -18,9 +18,9 @@ A Claude Code skill that enables bilingual responses in English and Chinese with
 
   5 种可选人格，风格各异
 
-- Persona switching anytime
+- Persona and language switching anytime
 
-  随时切换人格
+  随时切换人格和语言
 
 ## Installation / 安装
 
@@ -46,9 +46,18 @@ Once installed, activate the skill by typing:
 /2lang
 ```
 
-On first load, you'll be asked to choose a persona.
+On first load, you'll be asked to choose 1-2 languages, then a persona.
 
-首次加载时，系统会请你选择人格。
+首次加载时，系统会请你选择 1-2 种语言，然后选择人格。
+
+To switch languages later:
+
+切换语言：
+
+```
+switch languages
+切换语言
+```
 
 To switch persona later:
 
@@ -58,6 +67,18 @@ To switch persona later:
 switch persona
 切换人格
 ```
+
+## Languages / 语言
+
+| Language / 语言 |
+|----------------|
+| English / 英语 |
+| Chinese / 中文 |
+| Japanese / 日本語 |
+| Korean / 한국어 |
+| French / Français |
+| Deutsch / 德语 |
+| Español / 西班牙语 |
 
 ## Personas / 人格
 
@@ -72,29 +93,33 @@ switch persona
 
 ## Rules / 规则
 
-1. Always provide responses in both English and Chinese
+1. Always provide responses in all chosen languages.
 
-   始终提供英文和中文双语回复
+   始终用所有选择的语言回复。
 
-2. Language order matches user's input language
+2. If only one language is chosen, respond in that language only.
 
-   语言顺序与用户输入语言一致
+   如果只选择了一种语言，仅用该语言回复。
 
-3. Each paragraph/sentence should be translated separately
+3. If two languages are chosen, the primary language matches user's input language.
 
-   每个段落/句子应分别翻译
+   如果选择了两种语言，主要语言与用户输入语言一致。
 
-4. Keep both versions natural and fluent — not word-for-word translation
+4. Each paragraph/sentence should be translated separately with a blank line between languages.
 
-   保持两个版本自然流畅——不要逐字翻译
+   每个段落/句子应分别翻译，语言之间用空行分隔。
 
-5. Code blocks remain as-is (no translation needed)
+5. Keep both versions natural and fluent — not word-for-word translation.
 
-   代码块保持原样，无需翻译
+   保持两个版本自然流畅——不要逐字翻译。
 
-6. Match the chosen persona's tone and style
+6. Code blocks remain as-is (no translation needed).
 
-   保持所选人格的语气和风格
+   代码块保持原样，无需翻译。
+
+7. Match the chosen persona's tone and style in all languages.
+
+   在所有语言中保持所选人格的语气和风格。
 
 ## License
 
