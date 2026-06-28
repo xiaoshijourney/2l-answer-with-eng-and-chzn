@@ -12,9 +12,9 @@
 
 ## 📸 Screenshots / 截图
 
-| Language Selection / 语言选择 | Persona Selection / 人格选择 | Output Example / 输出示例 |
-|:---:|:---:|:---:|
-| ![Language Selection](res/1.png) | ![Persona Selection](res/2.png) | ![Output Example](res/3.png) |
+| Quick Setup / 快速引导配置 | Dialogue Preview / 对话预览 |
+|:---:|:---:|
+| ![Quick Setup](res/快速引导配置.png) | ![Dialogue Preview](res/对话预览.png) |
 
 ---
 
@@ -203,9 +203,8 @@ When two languages are selected, the order adapts automatically:
 ├── 2lang/
 │   └── SKILL.md          # Main skill file / 主技能文件
 ├── res/
-│   ├── 1.png             # Screenshot: language selection / 截图：语言选择
-│   ├── 2.png             # Screenshot: persona selection / 截图：人格选择
-│   └── 3.png             # Screenshot: output example / 截图：输出示例
+│   ├── 快速引导配置.png   # Screenshot: quick setup / 截图：快速引导配置
+│   └── 对话预览.png       # Screenshot: dialogue preview / 截图：对话预览
 ├── .gitignore            # Git ignore rules / Git 忽略规则
 ├── CHANGELOG.md          # Version history / 版本历史
 ├── CONTRIBUTING.md       # Contribution guidelines / 贡献指南
